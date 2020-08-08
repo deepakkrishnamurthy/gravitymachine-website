@@ -1563,24 +1563,24 @@
     gatsby-source-filesystem "^2.3.8"
     gatsby-transformer-sharp "^2.5.9"
 
-"@reflexjs/gatsby-plugin-metatags@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-plugin-metatags/-/gatsby-plugin-metatags-0.1.7.tgz#ece17ef6951e7b2a8813865b54ba96e1289579a2"
-  integrity sha512-GA8jNCCSe0Kgjb5g3yvB9FYgmUxSHIWO7aoU6s1nQrR7sq+QTXy2m1+rTHKFEl90LICJRGCmEiHjV8pYjo0kZA==
+"@reflexjs/gatsby-plugin-metatags@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-plugin-metatags/-/gatsby-plugin-metatags-0.2.0.tgz#5d3714167ef9e9de4e2c3e6f837d685c25a13dc1"
+  integrity sha512-qOdfJiFa8T57T5LPp36SFFetdno2B7BHTBEIs+i9ccuPdl7Xbt08jzE5+iu1bZ7TNpM3KoyjKRMbnRjpkV8Udw==
   dependencies:
     "@reflexjs/gatsby-plugin-image" "^0.2.2"
     "@reflexjs/utils" "^0.2.1"
     gatsby-plugin-react-helmet "^3.3.6"
     react-helmet "^6.1.0"
 
-"@reflexjs/gatsby-theme-base@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-theme-base/-/gatsby-theme-base-0.3.0.tgz#739cd74995de410f348e475d8706d89dfeba36d2"
-  integrity sha512-ZIc3avic5Vie4fnK13a7qvErxKcWv/hYiFJMgSRAY+/VAlP+kQzaSbCJOYyh07ksvwL/NWvjZMr7Ok8hpr/Y1w==
+"@reflexjs/gatsby-theme-base@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-theme-base/-/gatsby-theme-base-0.3.1.tgz#7a914bf39252c5cd9f98e0347942c80506485a00"
+  integrity sha512-fd038Rhb/+kU99/P1IVLRKYz986qG0JhzrkBksMtBTzshpaupZk3pol0XMjMeTLOieyojSSCu6vJyatL7GDA/w==
   dependencies:
     "@reflexjs/components" "^0.1.8"
     "@reflexjs/gatsby-plugin-image" "^0.2.2"
-    "@reflexjs/gatsby-plugin-metatags" "^0.1.7"
+    "@reflexjs/gatsby-plugin-metatags" "^0.2.0"
     "@reflexjs/gatsby-theme-block" "^0.3.0"
     "@reflexjs/gatsby-theme-core" "^0.4.0"
     "@reflexjs/gatsby-theme-nav" "^0.3.0"
@@ -1621,10 +1621,10 @@
     gatsby-transformer-sharp "^2.5.3"
     theme-ui "^0.3.1"
 
-"@reflexjs/gatsby-theme-doc@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-theme-doc/-/gatsby-theme-doc-0.3.0.tgz#8f644e98b43df94c2b5a3d8e6472f66624e62ad0"
-  integrity sha512-i3sGIdMLv5lVq/Sv8qQzQRwFVol/v9yugZe+bgy8raq5yWLtovZ7mPYWha2XncR5HA4ve13H8h3b2DHrgVSQxw==
+"@reflexjs/gatsby-theme-doc@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-theme-doc/-/gatsby-theme-doc-0.3.1.tgz#8fccccef5a6da4cacd7080785eebf706879a96b2"
+  integrity sha512-EZBXw+pD3fQRwij+aTMaZg9Z91yTiXs6AlA2qkUqt+LGyb6AtT002j/d6Bb4kLe3crFGtsSBwTb5BaMlN954lA==
   dependencies:
     "@reflexjs/components" "^0.1.8"
     "@reflexjs/gatsby-helpers" "^0.5.0"
@@ -1645,10 +1645,10 @@
     "@reflexjs/utils" "^0.2.1"
     gatsby-source-filesystem "^2.3.8"
 
-"@reflexjs/gatsby-theme-post@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-theme-post/-/gatsby-theme-post-0.4.0.tgz#cebfad55c338194068462b616f5b760e4c5ed4cb"
-  integrity sha512-yu0EHuKv+EtoJEabWuyPkFisIQk4VNsmpNcIQ8p1GfuKFqxDcQVnaTDh3zg+twd5z5GudOWfDyW+Zyz0hxFkBQ==
+"@reflexjs/gatsby-theme-post@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-theme-post/-/gatsby-theme-post-0.6.0.tgz#ac81e9644f2ee3638f2f0c240f4eac0e37c98757"
+  integrity sha512-xFDUz9e4DCUvN829diTUzTVErD6TEt48bdhjrauZwIt24u/2FaHY1/bQXRKjD4X5CjOHBVMM0at9KNa8hQfEPg==
   dependencies:
     "@reflexjs/components" "^0.1.8"
     "@reflexjs/gatsby-helpers" "^0.5.0"
@@ -6522,6 +6522,16 @@ gatsby-plugin-sharp@^2.6.16, gatsby-plugin-sharp@^2.6.9:
     sharp "^0.25.1"
     svgo "1.3.2"
     uuid "^3.4.0"
+
+gatsby-plugin-sitemap@^2.4.11:
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.4.11.tgz#080b3fe49e011a473582a660720de7a36089ae84"
+  integrity sha512-OX8Jry3t6iPqWoo/WDo0DTmaKuIPa0RDrd/fFeS5DYGyclpIVnAK1fr92X2222ZtdRwn6NLd5c+RpNrjxDvJDA==
+  dependencies:
+    "@babel/runtime" "^7.10.3"
+    minimatch "^3.0.4"
+    pify "^3.0.0"
+    sitemap "^1.13.0"
 
 gatsby-plugin-theme-ui@^0.3.0:
   version "0.3.0"
@@ -12704,6 +12714,14 @@ sisteransi@^1.0.4:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
+sitemap@^1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-1.13.0.tgz#569cbe2180202926a62a266cd3de09c9ceb43f83"
+  integrity sha1-Vpy+IYAgKSamKiZs094Jyc60P4M=
+  dependencies:
+    underscore "^1.7.0"
+    url-join "^1.1.0"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -13961,6 +13979,11 @@ underscore.string@^3.3.5:
     sprintf-js "^1.0.3"
     util-deprecate "^1.0.2"
 
+underscore@^1.7.0:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.10.2.tgz#73d6aa3668f3188e4adb0f1943bd12cfd7efaaaf"
+  integrity sha512-N4P+Q/BuyuEKFJ43B9gYuOj4TQUHXX+j2FqguVOpjkssLUUrnJofCcBccJSCoeturDoZU6GorDTHSvUDlSQbTg==
+
 unherit@^1.0.4:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/unherit/-/unherit-1.1.3.tgz#6c9b503f2b41b262330c80e91c8614abdaa69c22"
@@ -14299,6 +14322,11 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
+
+url-join@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-1.1.0.tgz#741c6c2f4596c4830d6718460920d0c92202dc78"
+  integrity sha1-dBxsL0WWxIMNZxhGCSDQySIC3Hg=
 
 url-loader@^1.1.2:
   version "1.1.2"
