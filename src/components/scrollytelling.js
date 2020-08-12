@@ -10,7 +10,6 @@ const sections = {
       <Container px="3rem" py="3rem" bg="background">
         <H1>First</H1>
         <P>This is the first box!</P>
-        <Image src="default.jpg" />
       </Container>
     ),
     background: "scrollytelling/1.jpg",
