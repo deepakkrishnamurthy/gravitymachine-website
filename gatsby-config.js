@@ -2,7 +2,7 @@ require(`dotenv`).config()
 
 module.exports = {
   siteMetadata: {
-    title: "Scale-free Vertical Tracking Microscopy",
+    title: "Gravity Machine",
     description: "A gravity machine website",
     siteUrl: process.env.SITE_URL || "https://ethanjli.github.io",
   },
@@ -20,7 +20,7 @@ module.exports = {
       resolve: `@reflexjs/gatsby-plugin-metatags`,
       options: {
         global: {
-          title: `Scale-free vertical Tracking Microscopy`,
+          title: `Gravity Machine`,
           description: `A starter template for open hardware project websites.`
         },
         types: [
