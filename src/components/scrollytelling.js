@@ -12,7 +12,7 @@ const sections = {
         <P>This is the first box!</P>
       </Container>
     ),
-    background: "scrollytelling/1.jpg",
+    background: "scrollytelling/1_surface.jpg",
     alt: "A fox"
   },
   1: {
@@ -26,7 +26,7 @@ const sections = {
         </Grid>
       </Container>
     ),
-    background: "scrollytelling/2.jpg",
+    background: "scrollytelling/2_ocean.jpg",
     alt: "A leopard"
   },
   2: {
