@@ -20,7 +20,7 @@ module.exports = {
       resolve: `@reflexjs/gatsby-plugin-metatags`,
       options: {
         global: {
-          title: `Gravity Machine`,
+          title: `Scale-free Vertical Tracking Microscopy`,
           description: `A starter template for open hardware project websites.`
         },
         types: [

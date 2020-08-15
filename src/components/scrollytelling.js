@@ -9,7 +9,7 @@ const sections = {
     child: (
       <Container px="3rem" py="3rem" bg="transparent">
         <H1></H1>
-        <P>This is the first box!</P>
+        <P> "What happens to a diatom in the upper, sunlit strata of the sea may well determine what happens to a cod lying on a ledge of some rocky canyon a hundred fathoms below, or to a bed of multicolored, gorgeously plumed seaworms carpeting an underlying shoal, or to a prawn creeping over the soft oozes of the sea floor in the blackness of mile-deep water." - Rachel Carson</P>
       </Container>
     ),
     background: "scrollytelling/1_surface.jpg",
