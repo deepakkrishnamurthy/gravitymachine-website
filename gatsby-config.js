@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: "Gravity Machine",
     description: "A gravity machine website",
-    siteUrl: process.env.SITE_URL || "https://deepakkrishnamurthy.github.io",
+    siteUrl: process.env.SITE_URL || "https://gravitymachine.org",
   },
-  pathPrefix: "/gravitymachine-website",
+  // pathPrefix: "/gravitymachine-website",
   plugins: [
     `@reflexjs/gatsby-theme-base`,
     {
