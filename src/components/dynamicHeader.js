@@ -12,7 +12,7 @@ export default class DynamicHeader extends PureComponent {
       const transitionStart = 200;
       const transitionEnd = window.innerHeight / 2;
       const startAlpha = 0;
-      const endAlpha = 0.9;
+      const endAlpha = 1.0;
       this.setState({
         alpha: Math.min(endAlpha, Math.max(
           startAlpha, window.scrollY - transitionStart

@@ -2,8 +2,8 @@ require(`dotenv`).config()
 
 module.exports = {
   siteMetadata: {
-    title: "Open Hardware Site",
-    description: "Starter for open hardware project sites.",
+    title: "Gravity Machine",
+    description: "A gravity machine website",
     siteUrl: process.env.SITE_URL || "https://ethanjli.github.io",
   },
   pathPrefix: "/open-hardware-site",
@@ -20,7 +20,7 @@ module.exports = {
       resolve: `@reflexjs/gatsby-plugin-metatags`,
       options: {
         global: {
-          title: `Open Hardware Site`,
+          title: `Gravity Machine`,
           description: `A starter template for open hardware project websites.`
         },
         types: [

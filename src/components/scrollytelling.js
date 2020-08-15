@@ -7,27 +7,26 @@ import styles from "./scrollytelling.module.css";
 const sections = {
   0: {
     child: (
-      <Container px="3rem" py="3rem" bg="background">
-        <H1>First</H1>
+      <Container px="3rem" py="3rem" bg="transparent">
+        <H1></H1>
         <P>This is the first box!</P>
-        <Image src="default.jpg" />
       </Container>
     ),
-    background: "scrollytelling/1.jpg",
+    background: "scrollytelling/1_surface.jpg",
     alt: "A fox"
   },
   1: {
     child: (
       <Container px="0" py="0">
         <Grid col="1|1|2">
-          <Div px="3rem" py="3rem" bg="background">
+          <Div px="3rem" py="3rem" bg="transparent">
             <H1>Second</H1>
             <P>Left Column!</P>
           </Div>
         </Grid>
       </Container>
     ),
-    background: "scrollytelling/2.jpg",
+    background: "scrollytelling/2_ocean.jpg",
     alt: "A leopard"
   },
   2: {
