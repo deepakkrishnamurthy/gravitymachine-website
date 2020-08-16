@@ -1,24 +1,29 @@
 ---
-title: About
-excerpt: About this project.
+title: Concept
 ---
 
 <Container>
 
-# About Us
+## Scale-free Vertical Tracking Microscopy
 
-Hello, **world**!
+### The challenge
 
-## Team
+>How to track a single cell at microscale resolution while allowing free vertical movement over ecological-scales? 
 
-We are a team of people.
+Accessing microscale behaviors over ecological scales in the lab is a challenge since constructing a vertical water column which is even a few meters in height poses practical constraints when the desired view-point is microscopic and at a single-cell level rather than at a population-scale. 
 
-<Block src="home/team" />
+Ideally one would want an "endless" water-column with movable microscope to follow cells as they swim up and down...
 
-## Funding
+### The Idea
+To address this challenge we invented the nearest thing we could imagine to an "endless" water-column using a simple insight "A circle has no beginning (or end)": The result is a microscope stage which functions as a "hydrodynamic treadmill" for single-cells. 
 
-We have funding from somewhere.
+The idea works as follows: An upright circular chamber with an annulus of fluid serves as our 'endless' water-column. A horizontal light-microscope focussed at either the 3 o'clock or 9 o'clock locations allows vertical movements of a cell or object to be tracked by compensatory rotation of the circular chamber such that a freely swimming cell is kept within the microscope's field-of-view. Linear tracking along the two horizontal directions allows full 3D localization of the cell. The imaging system acquires images at fast-rates and enables closed-loop 3D tracking using real-time computer vision algorithms as well as focus-tracking. 
 
 
+Importantly, the system is built using fully open-source components for both hardware and software.  
+
+[![deepakkrishnamurthy/gravitymachine-research - GitHub](https://gh-card.dev/repos/deepakkrishnamurthy/gravitymachine-research.svg)](https://github.com/deepakkrishnamurthy/gravitymachine-research)
+
+Currently all the hardware components, except for the circular chamber and adapters are off-the-shelf parts. 
 
 </Container>
