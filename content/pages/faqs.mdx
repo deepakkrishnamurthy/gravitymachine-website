@@ -1,8 +1,106 @@
 ---
 title: FAQs
 ---
+<Container>
 
 # FAQs
 
+<details>
+  <summary> What is a "Scale-free vertical tracking microscope" aka. Gravity Machine? </summary>
+  
+
+  "Scale-free vertical tracking microscope" is a tracking microscope - capable of optically identifying and electronically "locking in" on a freely swimming micro-organism to track it. What is unusual is because of the circular chamber used as a geometry, the organism sees no bounds along the vertical axis and is seemingly in an infinite column of water. In another term, as a "hydro-dynamic treadmill" for plankton, the instrument uses closed-loop feedback control to track a freely swimming micro-organism. In the frame of reference of the lab, the organism is stationary while in it's own frame of reference - it is traversing a column of water.   
+
+  Since, the vertical axis aligns with gravity and majority of organisms studied by us have specific response to gravity, we named this machine "*Gravity machine*".
+  
+</details>  
+<br/><br/>
+<details>
+  <summary> What versions of the machine have been built so far? What are the differences?</summary>
+  
+
+  Although the basic principle for various _"Gravity machines"_ built so far is exactly the same - we have engineered them with various criteria in mind. For light weight optics (low resolution/magnification), we opt for mounting the tracking linear actuators on the optics arm itself while the wheel remains stationary. For high resolution optics and compatibility with traditional microscopes, we have also converted all tracking actuators to be mounted on the rotating wheel while the microscope is stationary. 
+
+  Secondly, to emulate various environmental conditions such as light, pressure, temperature, salinity and others - specialized wheels have been designed that accommodate external couplers to allow us to flow fluids in and out without perturbing flow inside the wheel. Rotating circular chambers for all high resolution imaging are made out of glass, while wheels for low-resolution imaging can also be made out of acrylic.
+
+ 
+  
+</details>
+<br/><br/>
+<details>
+  <summary> What is the longest track possible for a freely swimming organism inside the gravity machine? </summary>
 
 
+  Theoretically, we have no limitations or bounds on how long we can track an organism that is traveling along the vertical (z) axis. Since the circular chamber has no end - an organism can swim for hours and never see a boundary. We have indeed tracked single cells swimming for almost 12hrs so far. Technically, any small error in tracking for a fast moving organism can sometimes result in loosing the track. We are currently in the process of implementing multi-scale tracking algorithms that will further allow us to increase tracks from a few hours to few days of continuous tracking. 
+</details>
+<br/><br/>
+<details>
+  <summary> Does a user need to guide the instrument during data collection or is this an automated tool?</summary>
+
+  
+  This is a fully automated instrument and after identifying an organism of interest and "locking" it using a joystick, the user can walk away from the instrument. The movements of swimming micro-organisms when imaged at high-resolution (20 to 60x) are fast enough that automated tracking is essential for this idea to work.  
+</details>
+<br/><br/>
+<details>
+  <summary> Can "gravity machine" be used in field conditions - say research vessels? </summary>
+
+
+  Indeed, we have built multiple version of "Gravity machine" specifically suited for field work - including research vessels. We took the gravity machine to HOT cruise on Kilo Moana at Station Aloha in December 2019. This allowed us to test the latest tracking algorithms in what turned out to be very rough seas!
+</details>
+<br/><br/>
+<details>
+  <summary> Where can tracking data-sets collected by "Gravity Machine" be seen?  </summary>
+
+  
+  Every time we trap and track micro-organisms in this vertical tracking context, we have observed new behaviors that have remained hidden in traditional microscopic imaging under a cover-slip. Thus while we continue to publish our work, we will use this website to further share datasets and continue to build a repository of natural swimming behavior across the tree of life. Please see  <a href = "/gallery/"> Data Gallery </a> for the start of this repository. 
+
+  Since "Gravity machine" data sets are multi-scale, we have also developed a custom python viewer that allows a user to navigate this datasets interactively. We will be releasing this data viewer with the latest version of the "Gravity machine" in a months time.
+  
+</details>
+<br/><br/>
+<details>
+  <summary> When will version 1.0 hardware and software released to the general public?  </summary>
+  
+
+  The software and hardware for "Gravity machine" has been rapidly evolving with sometimes what feels like exponential progress - specially in both the tracking accuracy, avoiding occlusion effects and longer and longer tracks. This has only been possible due to complete re-write of various parts of the software and integration of new hardware. Although we have shared the current software on our project GitHub, we will be substantially updating this within a months time. 
+  
+  After another round of cleanup, we will be officially releasing the "Gravity Machine v1.0" code and hardware in a months time on this site. We will also be announcing a program to engage with marine stations and research vessels globally to bring access to this unique instrument to marine research facilities globally. Please see our contact address for more details.
+
+ 
+  
+</details>
+<br/><br/>
+<details>
+  <summary> Is "Gravity Machine" compatible with traditional microscopes?  </summary>
+  
+
+  The latest version of the "Gravity machine" is compatible with conventional techniques in microscopy and traditional lab microscopes. Since all the tracking and electronics hardware and control is implemented on the rotating stage - any "regular" microscope could be turned 90 deg where the optical axis is horizontal and the Gravity Machine tracking stage installed. We will soon be providing exact instructions on this implementation. 
+</details>
+<br/><br/>
+<details>
+  <summary> What environmental parameters in vertically stratified ocean can be currently mapped inside the gravity machine? Which set of parameters will the team be tackling next? </summary>
+  
+
+  "Gravity machine" was invented to provide a virtual reality environment for organisms tracked in the circular chamber - so they would perceive signals corresponding to specific depths in the ocean. This requires us to modulate light, temperature, salinity, pressure, nutrient and oxygen profiles etc - almost any named physical parameters in the ocean. In the first series of implementations, we have already built means to modulate light and pressure; while we are currently implementing access to modulate chemical environment in a vertically stratified context (without perturbing the organism).  
+</details>
+<br/><br/>
+<details>
+  <summary> What class of chambers are compatible with the gravity machine? What are the dimensions of the wheels commonly used?  </summary>
+
+
+  Two types of chambers are commonly used by us in the gravity machine - one built using acrylic sheets while another built with borosilicate glass (~1.1 mm thick). The typical dimension of the wheel is given by inner radius (85mm), outer radius (100-115mm) and width ranging from 3-6mm. Thus the typical cross sectional size of the chamber close to imaging lens is ~30mmx6mm. 
+</details>
+<br/><br/>
+<details>
+  <summary> Who can we contact if we want to learn more?  </summary>
+
+
+  "Gravity machine" is a team effort from PrakashLab at Stanford University. As we expand to provide multiple versions of this instrument and make it more accessible to the general community, we are also looking to explore collaborations and specifically looking to take the instrument on different marine stations and on research vessels to test new features. 
+  
+  For details and interest in engaging with us and exploring new ways of using this tool, please feel free to write directly to [Deepak Krishnamurthy](mailto:deepak90@stanford.edu), Graduate student, PrakashLab) and [Prof. Manu Prakash](mailto:manup@stanford.edu) (PI, PrakashLab).
+
+</details>
+
+
+
+</Container>
