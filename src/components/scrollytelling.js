@@ -130,7 +130,7 @@ const sections = {
           <Div px="3rem" py="3rem" bg="transparent">
             <h1>A Solution</h1>
             <P> Here we present, "Scale-free Vertical Tracking Microscopy" (aka Gravity Machine) to take a step towards bridging scales, enabling a new paradigm of measurement in biological oceanography. We intend to bring a piece of the ocean to the lab and bring a piece of the lab to the ocean.</P>
-            <P> Explore the <a href = "/about/"> concept and technology </a> behind "Gravity machine", discover a whole new kind of <a href = "/gallery/"> plankton data </a> and follow our journey as we deploy these tools in lab and field settings. </P>
+            <P> Explore the <Link to={`/about/`}> concept and technology </Link> behind "Gravity machine", discover a whole new kind of <Link to={`/gallery/`}> plankton data </Link> and follow our journey as we deploy these tools in lab and field settings. </P>
           </Div>
           <Div> <Image src = "scrollytelling/gravity_machine.png" /> </Div>
         </Grid>
