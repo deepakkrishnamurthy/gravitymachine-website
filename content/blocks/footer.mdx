@@ -15,12 +15,10 @@ export const FooterBlock = () => {
               {title}
             </H2>
             <P fontSize="md">
-              Perspiciatis doloribus dignissimos delectus exercitationem ipsum
-              voluptates.
+            
             </P>
-            <A href="#" fontSize="md" color="text" lineHeight="none">
-              <Icon name="mail" size="5" mr="2" />
-              support@reflexjs.org
+            <A href="http://web.stanford.edu/group/prakash-lab/cgi-bin/labsite/" fontSize="md" color="text" lineHeight="none">
+              Prakash Lab
             </A>
           </Div>
           <NavMenu
@@ -37,18 +35,9 @@ export const FooterBlock = () => {
           mt={[4, 5, 6]}
         >
           <P fontSize="sm" my="0">
-            © {new Date().getFullYear()} {title}
+            © {new Date().getFullYear()} {title}, Prakash Lab, Stanford University
           </P>
-          <Grid col="2" gap="4" mt={[4, 0]}>
-            <A href="#" color="text">
-              <Icon name="twitter" size={5} />
-              <VisuallyHidden>Follow on Twitter</VisuallyHidden>
-            </A>
-            <A href="#" color="text">
-              <Icon name="instagram" size={5} />
-              <VisuallyHidden>Follow on Instagram</VisuallyHidden>
-            </A>
-          </Grid>
+         
         </Flexbox>
       </Container>
     </Section>
