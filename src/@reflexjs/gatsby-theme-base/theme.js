@@ -6,6 +6,7 @@ export default {
   colors: {
     primary: "#4361ee",
   },
+
   pre: {
     ...base.styles.pre,
   },

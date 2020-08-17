@@ -12,7 +12,7 @@ const sections = {
         <h1> - Rachel Carson, <i>The Sea Around Us</i> </h1>
       </Container>
     ),
-    background: "scrollytelling/1_surface.jpg",
+    background: "scrollytelling/1-LANDING.jpg",
     alt: "Center box, large image"
   },
   1: {
@@ -29,7 +29,7 @@ const sections = {
         </Grid>
       </Container>
     ),
-    background: "scrollytelling/2_ocean.jpg",
+    background: "scrollytelling/2-LANDING.jpg",
     alt: "Largest biosphere, Left"
   },
   2: {
@@ -44,7 +44,7 @@ const sections = {
         </Grid>
       </Div>
     ),
-    background: "scrollytelling/ocean_placeholder.jpg",
+    background: "scrollytelling/3-LANDING.jpg",
     alt: "Far right column"
   },
   // 3: {
@@ -78,6 +78,7 @@ const sections = {
     child: (
       <Container px="0" py="0">
         <Grid col="1|1|2">
+          <Div> <Image src = "scrollytelling/diel_migration.png" /> </Div>
           <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0.5)'>
             <h1>Every single day, marine plankton undertake vertical migrations wherein each organism travels many orders its own size. </h1>
             <h1> This constitutes the largest bio-mass migration on our planet. </h1>
@@ -85,7 +86,7 @@ const sections = {
         </Grid>
       </Container>
     ),
-    background: "scrollytelling/ocean_placeholder.jpg",
+    background: "scrollytelling/4-LANDING.jpg",
     alt: "Diel migration, Left"
   },
   4: {
@@ -99,7 +100,7 @@ const sections = {
         </Grid>
       </Div>
     ),
-    background: "scrollytelling/ocean_placeholder.jpg",
+    background: "scrollytelling/5-LANDING-blank.jpg",
     alt: "Far right column"
   },
 
@@ -120,7 +121,7 @@ const sections = {
         <P> How to track single cells or small particles at microscale resolution while allowing ecological scale movements along the axis of gravity </P>
       </Container>
     ),
-    background: "scrollytelling/ocean_placeholder.jpg",
+    background: "scrollytelling/5-LANDING-blank.jpg",
     alt: "Challenge, Center"
   },
   6: {
@@ -136,7 +137,7 @@ const sections = {
         </Grid>
       </Div>
     ),
-    background: "scrollytelling/ocean_placeholder.jpg",
+    background: "scrollytelling/5-LANDING-blank.jpg",
     alt: "Solution, Far right"
   },
   7: {
@@ -150,7 +151,7 @@ const sections = {
         </Grid>
       </Container>
     ),
-    background: "scrollytelling/ocean_placeholder.jpg",
+    background: "scrollytelling/5-LANDING-blank.jpg",
     alt: "Data Gallery, Left"
   },
 }
