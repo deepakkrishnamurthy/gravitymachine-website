@@ -3,6 +3,7 @@ import { Container, Div, Grid, H1, P, Section } from "@reflexjs/components"
 import { Block } from "@reflexjs/gatsby-theme-block"
 import { Image } from "@reflexjs/gatsby-plugin-image";
 import styles from "./scrollytelling.module.css";
+import { Link } from 'gatsby';
 
 const sections = {
   0: {
@@ -19,10 +20,8 @@ const sections = {
     child: (
       <Container px="0" py="0">
         <Grid col="1|1|2">
-          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0.5)'>
-            <h1>The ocean is the largest biosphere on our planet ... </h1>
-            <h1> ... yet, key ocean processes occur at the smallest scales... </h1>
-            <h1> Keep scrolling to the depths to see what makes these processes important as well as challenging to measure ... </h1>
+          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0)'>
+            <h1>The ocean is the largest biosphere on our planet. Hidden right under the thin veil that forms the surface of the ocean, key micro-scale biological processes shape the past, present and future of the planet. Scroll below to find how these micro-scale processes hold the key to understanding the global carbon cycle, dispersion of marine organisms in the ocean and more... </h1>
           </Div>
           <Div>
           </Div>
@@ -37,9 +36,8 @@ const sections = {
       <Div px="3rem" py="3rem">
         <Grid col="1|1|2">
           <Div> </Div>
-          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0.5)'>
-            <h1> Marine phytoplankton fix 50% of global carbon </h1>
-             <h1> ... Micro-scale processes due to plankton and sinking marine snow shape marine environments and impact the planetary carbon cycle ... </h1>
+          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0)'>
+            <h1> If you imagine a deep chasm cutting into the ocean, you would find highly stratified ecosystems organized along the vertical axis. Deeper we go - everything life cares about - light, temperature, nutrient distribution, pressure, all change rapidly... </h1>
           </Div>
         </Grid>
       </Div>
@@ -78,11 +76,10 @@ const sections = {
     child: (
       <Container px="0" py="0">
         <Grid col="1|1|2">
-          <Div> <Image src = "scrollytelling/diel_migration.png" /> </Div>
-          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0.5)'>
-            <h1>Every single day, marine plankton undertake vertical migrations wherein each organism travels many orders its own size. </h1>
-            <h1> This constitutes the largest bio-mass migration on our planet. </h1>
+          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0)'>
+            <h1>Every single day, marine plankton - microscopic in size - undertake vertical migrations from tens to hundreds of meters deep vertically. This forms part of the largest bio-mass migration on our planet and dictates how species disperse in the open ocean...</h1>
           </Div>
+          <Div> <Image src = "scrollytelling/diel_migration.png" /> </Div>
         </Grid>
       </Container>
     ),
@@ -94,13 +91,15 @@ const sections = {
       <Div px="3rem" py="3rem">
         <Grid col="1|1|2">
           <Div></Div>
-          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0.5)'>
-            <h1>Gravity makes the ocean vertically stratified with key parameters for life such as light, temperature, pressure, nutrient concentration changing rapidly along the vertical</h1>
+          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0.3)'>
+            <h1> The oceans absorbs almost a third of global CO<sub>2</sub> emissions. Marine plankton die, aggregate and sink as billions and billions of sinking marine snow particles impacting planetary carbon cycle; so poetically described as
+            <em>"...the most stupendous “snowfall” the earth has ever seen." - Rachel Carson (1951) </em> </h1>
+            <h1> So, is marine snow dead or alive? How do we make measurements of such a microscopic particle traveling kilometers? </h1>
           </Div>
         </Grid>
       </Div>
     ),
-    background: "scrollytelling/5-LANDING-blank.jpg",
+    background: "scrollytelling/6-LANDING-marine-snow.png",
     alt: "Far right column"
   },
 
@@ -116,9 +115,9 @@ const sections = {
   // },
   5: {
     child: (
-      <Container px="3rem" py="3rem" bg="background">
-        <h1>The Challenge</h1>
-        <P> How to track single cells or small particles at microscale resolution while allowing ecological scale movements along the axis of gravity </P>
+      <Container px="3rem" py="3rem" bg="transparent">
+        <H1>The Challenge</H1>
+        <h1> <em>So, how do you track single cells or microscopic particles only a few hundred microns in size, at microscale resolution, while allowing them to move freely along the axis of gravity, say a kilometer?</em> </h1>
       </Container>
     ),
     background: "scrollytelling/5-LANDING-blank.jpg",
@@ -128,12 +127,12 @@ const sections = {
     child: (
       <Div px="3rem" py="3rem">
         <Grid col="1|1|2">
-          <Div></Div>
-          <Div px="3rem" py="3rem" bg="background">
+          <Div px="3rem" py="3rem" bg="transparent">
             <h1>A Solution</h1>
-            <P>We developed Scale-free Vertical Tracking Microscopy (aka Gravity Machine) to take a step towards bridging scales in the ocean, enabling a new paradigm of measurement of microscale processes in the lab</P>
-            <P> Explore this concept and technology as well as data of plankton behaviors at multi-scale resolution using the links below </P>
+            <P> Here we present, "Scale-free Vertical Tracking Microscopy" (aka Gravity Machine) to take a step towards bridging scales, enabling a new paradigm of measurement in biological oceanography. We intend to bring a piece of the ocean to the lab and bring a piece of the lab to the ocean.</P>
+            <P> Explore the <a href = "/about/"> concept and technology </a> behind "Gravity machine", discover a whole new kind of <a href = "/gallery/"> plankton data </a> and follow our journey as we deploy these tools in lab and field settings. </P>
           </Div>
+          <Div> <Image src = "scrollytelling/gravity_machine.png" /> </Div>
         </Grid>
       </Div>
     ),
@@ -144,10 +143,11 @@ const sections = {
     child: (
       <Container px="0" py="0">
         <Grid col="1|1|2">
-          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0.5)'>
+          <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0)'>
             <h1> Gallery of plankton behaviors </h1>
-            <P> Explore the first-ever multi-scale datasets of marine plankton behaviors captured using Gravity Machine </P>
+            <h1> Explore our <a href = "/gallery/">first-of-a-kind datasets</a> of never before seen plankton behaviors captured by Gravity Machine at multi-scale resolution. Are you ready for a deep dive?</h1>
           </Div>
+          <Div> <Image src = "scrollytelling/plankton_data.png" /> </Div>
         </Grid>
       </Container>
     ),
