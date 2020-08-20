@@ -21,7 +21,8 @@ const sections = {
       <Container px="0" py="0">
         <Grid col="1|1|2">
           <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0)'>
-            <h1>The ocean is the largest biosphere on our planet. Hidden right under the thin veil that forms the surface of the ocean, key micro-scale biological processes shape the past, present and future of the planet. Scroll below to find how these micro-scale processes hold the key to understanding the global carbon cycle, dispersion of marine organisms in the ocean and more... </h1>
+            <h1>The ocean is the largest biosphere on our planet </h1> 
+            <P> Hidden right under the thin veil that forms the surface of the ocean, key micro-scale biological processes shape the past, present and future of the planet. Scroll below to find how these micro-scale processes hold the key to understanding the global carbon cycle, dispersion of marine organisms in the ocean and more... </P>
           </Div>
           <Div>
           </Div>
@@ -37,7 +38,7 @@ const sections = {
         <Grid col="1|1|2">
           <Div> </Div>
           <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0)'>
-            <h1> If you imagine a deep chasm cutting into the ocean, you would find highly stratified ecosystems organized along the vertical axis. Deeper we go - everything life cares about - light, temperature, nutrient distribution, pressure, all change rapidly... </h1>
+            <P> If you imagine a deep chasm cutting into the ocean, you would find highly stratified ecosystems organized along the vertical axis. Deeper we go - everything life cares about - light, temperature, nutrient distribution, pressure, all change rapidly... </P>
           </Div>
         </Grid>
       </Div>
@@ -77,7 +78,8 @@ const sections = {
       <Container px="0" py="0">
         <Grid col="1|1|2">
           <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0)'>
-            <h1>Every single day, marine plankton - microscopic in size - undertake vertical migrations from tens to hundreds of meters deep vertically. This forms part of the largest bio-mass migration on our planet and dictates how species disperse in the open ocean...</h1>
+            <h1> The largest bio-mass migration on our planet</h1>
+            <P> Every single day, marine plankton - microscopic in size - undertake vertical migrations from tens to hundreds of meters deep vertically. </P>
           </Div>
           <Div> <Image src = "scrollytelling/diel_migration.png" /> </Div>
         </Grid>
@@ -92,9 +94,10 @@ const sections = {
         <Grid col="1|1|2">
           <Div></Div>
           <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0.3)'>
-            <h1> The oceans absorbs almost a third of global CO<sub>2</sub> emissions. Marine plankton die, aggregate and sink as billions and billions of sinking marine snow particles impacting planetary carbon cycle; so poetically described as
-            <em>"...the most stupendous “snowfall” the earth has ever seen." - Rachel Carson (1951) </em> </h1>
-            <h1> So, is marine snow dead or alive? How do we make measurements of such a microscopic particle traveling kilometers? </h1>
+            <h1> The oceans absorbs almost a third of global CO<sub>2</sub> emissions. </h1>
+             <P> Marine plankton die, aggregate and sink as billions and billions of sinking marine snow particles impacting planetary carbon cycle; so poetically described as
+            <em>"...the most stupendous “snowfall” the earth has ever seen." - Rachel Carson (1951) </em> </P>
+            <P> So, is marine snow dead or alive? How do we make measurements of such a microscopic particle traveling kilometers? </P>
           </Div>
         </Grid>
       </Div>
@@ -145,7 +148,7 @@ const sections = {
         <Grid col="1|1|2">
           <Div px="3rem" py="3rem" bg='rgba(25, 25, 36, 0)'>
             <h1> Gallery of plankton behaviors </h1>
-            <h1> Explore our <a href = "/gallery/">first-of-a-kind datasets</a> of never before seen plankton behaviors captured by Gravity Machine at multi-scale resolution. Are you ready for a deep dive?</h1>
+            <P> We present here <a href = "/gallery/">first-of-a-kind datasets</a> of never before seen plankton behaviors captured by Gravity Machine at multi-scale resolution. Are you ready for a deep dive?</P>
           </Div>
           <Div> <Image src = "scrollytelling/plankton_data.png" /> </Div>
         </Grid>
