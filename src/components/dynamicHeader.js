@@ -23,7 +23,7 @@ export default class DynamicHeader extends PureComponent {
 
   render() {
     const { alpha } = this.state;
-    const background = `rgba(25, 25, 36, ${alpha})`;
+    const background = `rgba(9, 30, 31, ${alpha})`;
     return (
       <Div position="relative">
         <Block

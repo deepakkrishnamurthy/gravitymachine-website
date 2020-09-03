@@ -5,6 +5,11 @@ export default {
   initialColorModeName: 'dark',
   colors: {
     primary: "#4361ee",
+    modes: {
+      dark: {
+        background: '#091e1f'
+      }
+    }
   },
 
   pre: {
